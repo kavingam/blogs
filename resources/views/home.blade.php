@@ -188,69 +188,65 @@
         </div>
         <!-- 🔹 RIGHT SIDEBAR: Categories & Tags -->
         <div class="col-lg-3 order-2 order-lg-2 mt-4 mt-lg-0">
+            <!-- Career Categories -->
+            <div class="card shadow-sm rounded-4 border-0 mb-4">
+                <div class="card-header bg-primary text-white rounded-top-4">
+                    <h5 class="mb-0 responsive-text"><i class="fas fa-briefcase me-2"></i>Career Categories</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action responsive-text">Government Jobs</a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text">Private Sector</a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text">Banking & Finance</a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text">Engineering</a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text">Teaching</a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text">Internships</a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text">Walk-In Interviews</a>
+                    </div>
+                </div>
+            </div>
 
-<!-- Career Categories -->
-<div class="card shadow-sm rounded-4 border-0 mb-4">
-    <div class="card-header bg-primary text-white rounded-top-4">
-        <h5 class="mb-0 responsive-text"><i class="fas fa-briefcase me-2"></i>Career Categories</h5>
-    </div>
-    <div class="card-body p-0">
-        <div class="list-group list-group-flush">
-            <a href="#" class="list-group-item list-group-item-action responsive-text">Government Jobs</a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text">Private Sector</a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text">Banking & Finance</a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text">Engineering</a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text">Teaching</a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text">Internships</a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text">Walk-In Interviews</a>
-        </div>
-    </div>
-</div>
-
-<!-- Tools Section -->
-<div class="card shadow-sm rounded-4 border-0 mb-4">
-    <div class="card-header bg-dark text-white rounded-top-4">
-        <h5 class="mb-0 responsive-text"><i class="fas fa-tools me-2"></i>Tools</h5>
-    </div>
-    <div class="card-body">
-        <div class="list-group list-group-flush">
-            <a href="#" class="list-group-item list-group-item-action responsive-text d-flex align-items-center">
-                🖼️ <span class="ms-2">Image Cropper</span>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text d-flex align-items-center">
-                📏 <span class="ms-2">Photo Resizer</span>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text d-flex align-items-center">
-                📄 <span class="ms-2">Image to PDF</span>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action responsive-text d-flex align-items-center">
-                🧼 <span class="ms-2">Background Remover</span>
-            </a>
-        </div>
-    </div>
-</div>
-<!-- Tags Sections -->
-<div class="card shadow-sm rounded-4 border-0 mb-4">
-    <div class="card-header bg-info text-white rounded-top-4">
-        <h5 class="mb-0 responsive-text">
-            <i class="fas fa-tags me-2"></i>Tags
-        </h5>
-    </div>
-    <div class="card-body">
-        <div class="d-flex flex-wrap gap-2">
-            <a href="#" class="badge bg-primary text-white text-decoration-none tag-badge">Freshers</a>
-            <a href="#" class="badge bg-secondary text-white text-decoration-none tag-badge">Experienced</a>
-            <a href="#" class="badge bg-warning text-dark text-decoration-none tag-badge">Urgent Hiring</a>
-            <a href="#" class="badge bg-success text-white text-decoration-none tag-badge">Remote Jobs</a>
-            <a href="#" class="badge bg-dark text-white text-decoration-none tag-badge">Full-Time</a>
-            <a href="#" class="badge bg-info text-dark text-decoration-none tag-badge">Part-Time</a>
-            <a href="#" class="badge bg-danger text-white text-decoration-none tag-badge">Walk-ins</a>
-        </div>
-    </div>
-</div>
-
-
-
+            <!-- Tools Section -->
+            <div class="card shadow-sm rounded-4 border-0 mb-4">
+                <div class="card-header bg-dark text-white rounded-top-4">
+                    <h5 class="mb-0 responsive-text"><i class="fas fa-tools me-2"></i>Tools</h5>
+                </div>
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action responsive-text d-flex align-items-center">
+                            🖼️ <span class="ms-2">Image Cropper</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text d-flex align-items-center">
+                            📏 <span class="ms-2">Photo Resizer</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text d-flex align-items-center">
+                            📄 <span class="ms-2">Image to PDF</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action responsive-text d-flex align-items-center">
+                            🧼 <span class="ms-2">Background Remover</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tags Sections -->
+            <div class="card shadow-sm rounded-4 border-0 mb-4">
+                <div class="card-header bg-info text-white rounded-top-4">
+                    <h5 class="mb-0 responsive-text">
+                        <i class="fas fa-tags me-2"></i>Tags
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="badge bg-primary text-white text-decoration-none tag-badge">Freshers</a>
+                        <a href="#" class="badge bg-secondary text-white text-decoration-none tag-badge">Experienced</a>
+                        <a href="#" class="badge bg-warning text-dark text-decoration-none tag-badge">Urgent Hiring</a>
+                        <a href="#" class="badge bg-success text-white text-decoration-none tag-badge">Remote Jobs</a>
+                        <a href="#" class="badge bg-dark text-white text-decoration-none tag-badge">Full-Time</a>
+                        <a href="#" class="badge bg-info text-dark text-decoration-none tag-badge">Part-Time</a>
+                        <a href="#" class="badge bg-danger text-white text-decoration-none tag-badge">Walk-ins</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
