@@ -1,4 +1,47 @@
+/* Toggler Button */
+.custom-toggler {
+  width: 20px;
+  height: 18px;
+  padding: 5px;
+  background: transparent;
+  border: none !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  z-index: 1051;
+}
 
+/* Bar lines */
+.custom-toggler .bar {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff; /* Change to #000 for light navbar */
+  background-color: #5bc0de; /* Light blue */
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
+}
+
+/* When menu is open: form "X" */
+.custom-toggler:not(.collapsed) .top-bar {
+  transform: rotate(45deg) translateY(11px);
+}
+
+.custom-toggler:not(.collapsed) .middle-bar {
+  opacity: 0;
+}
+
+.custom-toggler:not(.collapsed) .bottom-bar {
+  transform: rotate(-45deg) translateY(-11px);
+}
+
+@media (min-width: 992px) {
+  .custom-toggler {
+    display: none !important;
+  }
+}
 
 .fs-nav {
     font-size: clamp(12px, 2vw, 16px); /* Responsive font size */

@@ -38,15 +38,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button> -->
 
-            <button class="navbar-toggler border-0" style="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <!-- <button class="navbar-toggler border-0" style="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- <button class="navbar-togglerx custom-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
-                <span class="toggler-line"></span>
-                <span class="toggler-line"></span>
-                <span class="toggler-line"></span>
             </button> -->
+
+            <!-- Custom Animated Toggler -->
+            <button class="custom-toggler collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarMain"
+                    aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bar top-bar"></span>
+            <span class="bar middle-bar"></span>
+            <span class="bar bottom-bar"></span>
+            </button>
 
 
             <!-- Navbar Links -->
