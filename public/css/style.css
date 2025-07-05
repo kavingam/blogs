@@ -1,0 +1,80 @@
+.fs-nav {
+    font-size: clamp(12px, 2vw, 16px); /* Responsive font size */
+    color: #ffffff; /* White text */
+    background-color: #333333;
+}
+
+.fs-nav-item {
+    color: #ffffff; /* White text */
+    padding: 6px;
+    text-decoration: none; /* Remove underline */
+}
+.fs-nav-item:hover {
+    background-color: #ffffff;   /* White background */
+    padding: 6px;                   
+    color: #000000;              /* Optional: dark text for contrast */
+}
+
+footer {
+    font-size: clamp(12px, 2vw, 16px); /* Responsive font size */
+}
+
+.footer-links-css li a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    padding-left: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-links-css li a::before {
+    content: "➤"; /* You can change this to →, •, ✔, etc. */
+    position: absolute;
+    left: 0;
+    color: inherit;
+}
+
+.footer-links-css li a:hover {
+    text-decoration: underline;
+}
+
+.btn-social {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 8px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    white-space: nowrap; /* prevent text wrap */
+}
+
+.btn-social:hover {
+    box-shadow: 0 0 12px currentColor;
+    transform: scale(1.05);
+}
+
+/* Video Header CSS code */
+.video-header {
+    /* height: 100px; Adjust as needed */
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.6; /* optional transparency */
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
